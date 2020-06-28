@@ -1,0 +1,18 @@
+.naslov{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d01486;
+    text-align: center;
+}
+
+.slika{
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+    transition: all 0.2s;
+}
+
+.slika:hover{
+    transform: scale(1.03,1.03);
+    cursor: pointer;
+}

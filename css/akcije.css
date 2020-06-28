@@ -1,0 +1,44 @@
+h2{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d01486;
+    text-align: center;
+    font-size: 3em;
+}
+
+h4{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d01486;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.p1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h5{
+    text-align: center;
+    color: #8549a7;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.thumbnail{
+    border: 2px dashed #d01486;
+    transition: all 0.3s;
+}
+
+.thumbnail:hover{
+    transform: scale(1.01,1.01) rotate(-2deg);
+    box-shadow: 5px 5px 4px grey;
+    font-size: 1.1em;
+}
+
+
+
+

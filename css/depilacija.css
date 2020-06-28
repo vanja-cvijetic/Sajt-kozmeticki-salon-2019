@@ -1,0 +1,105 @@
+.glavni-naslov{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d01486;
+    text-align: center;
+}
+
+.naslov{
+    background: url('../img/depilacija-pozadina.jpg') rgba(255,255,255,0.1);
+    border: 2px solid #8549a7;
+    text-align: center;
+    margin: 20px auto 10px;
+}
+
+h3{
+    border: 2px solid #8549a7;
+    background: rgba(255,255,255,0.6);
+    margin: 10px;
+    padding: 2px;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.7em;
+}
+
+.tekst{
+    font-size: 1.4em;
+    text-align: justify;
+    padding-top: 0.5px;
+    margin: 1px auto;
+    background: rgba(255,255,255,0.3);
+    border: 0.5px dashed #d01486;
+    width: 100%;
+}
+
+#zakazivanje{
+    /* DIV */
+    margin: 80px auto 0px;
+
+}
+
+#p-zakazivanje{
+    /* PARAGRAF DIVA */
+    text-align: center;
+    
+}
+
+#p-zakazivanje a{
+    text-decoration: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid #8549a7;
+    color: #d01486 !important;
+    padding: 10px;
+    transition: all 0.4s;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.3);
+}
+
+#p-zakazivanje a:hover{
+    color: #8549a7;
+    letter-spacing: 0.1em;
+    border-radius: 10px;
+}
+
+/* STANJA LINKOVA */
+#p-zakazivanje a:active{
+    color: #8549a7 !important;
+    letter-spacing: 0.1em !important;
+    border-radius: 10px !important;
+}
+
+#p-zakazivanje a:visited{
+    color: #d01486 !important;
+    letter-spacing: 0.1em !important;
+    border-radius: 10px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    #p-zakazivanje a{
+        font-size: 0.9em;
+    }
+
+    h3{
+        font-size: 1.2em;
+    }
+
+    .tekst{
+        text-align: center;
+        font-size: 1.1em;
+    }
+}
+
+#slike img{
+    border: 1px dashed #d01486;
+    margin: 10px auto;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+#slike img:hover{
+    opacity: 1;
+}
+

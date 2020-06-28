@@ -1,0 +1,91 @@
+h2{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d01486;
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+fieldset{
+    border: 1px dashed #d01486;
+    padding: 1.5rem;
+    margin-bottom: 1.5em;
+    background: rgba(255,255,255,0.2);
+}
+
+#naslovUFieldsetu{
+    text-align: center;
+    color: #d01486;
+    text-transform: uppercase;
+}
+
+.btn-default{
+    background-color: #d01486;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn-default:hover{
+    background-color: #8549a7;
+    color: white;
+}
+
+.btn-default:active{
+    background-color: #8549a7 !important;
+    color: white !important;
+}
+
+.btn-default:visited{
+    background-color: #d01486;
+    color: white;
+}
+
+label{
+    color: #8549a7;
+}
+
+#depilacija{
+    font-weight: bold;
+}
+
+.divSaMapom{
+    border: 1px dashed #d01486;
+    background: rgba(255,255,255,0.2);
+}
+
+.listaDesno{
+    color: #8549a7;
+    font-weight: bold;
+    border-bottom: 1px solid #d01486;
+    padding: 1.1rem;
+    }
+
+.listaDesno a{
+    color: #8549a7;
+}
+
+.listaDesno a:hover{
+    color: #d01486;
+}
+
+.pull-right{
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+    iframe{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    iframe{
+        width: 100%;
+    }
+}
+

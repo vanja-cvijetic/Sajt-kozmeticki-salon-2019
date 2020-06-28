@@ -1,0 +1,112 @@
+h2{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d01486;
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#tabela{
+    text-align: center;
+    align-content: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 0.3em solid white;
+    font-size: 1.4em;
+}
+
+th{
+    background-color: #d01486;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+}
+
+.separator{
+    background-color: white;
+    color: #8549a7;
+}
+
+table tbody tr:nth-child(even){
+    background-color: rgba(255,255,255,0.3);
+}
+
+@media only screen and (max-width: 760px) {
+    /* Force table to not be like tables anymore 
+        POSTAJU BLOKOVSKI ELEMENTI */
+	table, thead, tbody, th, td, tr { 
+        display: block;
+        text-align: center;
+        font-size: 1.1em;
+    }
+    
+    /* Hide table headers (but not display: none;, for accessibility)
+        UKLANJANJE HEDERA */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	td { 
+		/* Behave like a "row" */
+		border: none;
+        position: relative; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+    }
+    
+    .separator{
+        padding: 20px;
+    } 
+
+}
+
+.dugmad{
+    text-align: center;
+    margin: 3em;
+}
+
+.dugme{
+    background-color: #d01486;
+    border: 1px solid #d01486;
+    margin: 1em 1.5em;
+}
+
+.dugme:visited{
+    background-color: #d01486;
+    border: 1px solid #d01486;
+    margin: 1em 1.5em;
+}
+
+.dugme:hover{
+    background-color: #8549a7;
+    border: 1px solid #8549a7;
+    margin: 1em 1.5em;
+}
+
+.dugme:active{
+    background-color: #8549a7 !important;
+    border: 1px solid #8549a7 !important;
+    margin: 1em 1.5em;
+}
+

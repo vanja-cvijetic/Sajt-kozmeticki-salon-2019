@@ -1,0 +1,33 @@
+h2{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d01486;
+    text-align: center;
+    font-size: 3em;
+}
+
+.p1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#lista a{
+    text-decoration: none;
+    font-size: 2em;
+    color: #8549a7;
+    text-transform: uppercase;
+}
+
+#lista a:hover{
+    text-decoration: none;
+    color: #d01486;
+}
+
+#lista{
+    list-style-image: url(../img/cvetic.png);
+}
+
+#podlista a{
+    text-transform: none;
+}

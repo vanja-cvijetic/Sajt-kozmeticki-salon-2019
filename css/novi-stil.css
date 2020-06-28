@@ -1,0 +1,120 @@
+body{
+    background: url('../img/background.jpg');
+}
+
+.navbar-brand {
+    /* LOGO */
+    padding: 0px 10px 0px 0px;
+}
+
+/* CELA NAVIGACIJA */ 
+.navbar{ 
+    background-color: white;
+    border-bottom: 0.5px solid #d01486;
+    color: #d01486; 
+}
+
+
+
+/* LINKOVI NAVIGACIJE */
+.navbar-default .navbar-nav>li>a{ 
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #d01486 !important;
+    transition: all 0.2s;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #8549a7 !important;
+}
+
+
+
+/* AKTIVNA STRANA NAVIGACIJE */
+.navbar-default .navbar-nav>.active>a{
+    
+    background-color:  #d01486 !important;
+    color: white !important;
+    transition: all 0.2s;
+}
+
+/* AKTIVNA STRANA NAVIGACIJE - HOVER */
+.navbar-default .navbar-nav>.active>a:hover{
+    
+    background-color:  #d01486 !important;
+    color: white !important;
+}
+
+
+
+/* DROPDOWN LINKOVI */
+.dropdown-menu>li>a{   
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: #d01486 !important;
+    transition: all 0.2s;
+}
+
+.dropdown-menu>li>a:hover{  
+    color: #8549a7 !important;
+}
+
+
+
+/* DROPDOWN AKTIVNA STRANA */
+.dropdown-menu>li.active>a{
+    
+    background-color:  #d01486 !important;
+    color: white !important;
+    transition: all 0.2s;
+}
+
+.dropdown-menu>li.active>a:hover{
+    background-color:  #d01486 !important;
+    color: white !important;
+}
+
+
+/* FOOTER */
+
+footer{
+	padding: 2rem;
+	background-color: white !important;
+    margin-top: 2rem;
+    border-top: #d01486 0.5px solid;
+    color: #8549a7 !important;
+}
+
+footer a{
+	color: #d01486 !important;
+	transition: color 0.4s ease-in;
+	padding: 0.2rem;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
+
+footer a:visited{
+	color: #d01486 !important;
+	text-decoration: none !important;
+}
+
+footer a:hover{
+	color: #8549a7 !important;
+	text-decoration: none !important;
+}
+
+footer p{
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
+
+footer img{
+    transform: translate(0,-15%);
+    padding-left: 0px;
+}
+
+
+.fa-instagram:before, .fa-facebook-square:before{
+    font-size: 1.2em;
+}
+

@@ -1,0 +1,44 @@
+h2{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d01486;
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#poruka{
+    border: 3px dashed #d01486;
+    text-align: center;
+    padding: 2em;
+    background: rgba(255,255,255,0.2);
+}
+
+#prvi{
+    color: #8549a7;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+#drugi{
+    color: #d01486;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+#povratak{
+    color: #d01486;
+    transition: all 0.2s;
+    font-size: 1.5em;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+#povratak:hover{
+    text-decoration: none;
+    color: #8549a7;
+}
